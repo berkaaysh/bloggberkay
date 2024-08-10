@@ -115,3 +115,9 @@ blockquote footer {
     color: #666;
 }
 
+/* Zoomed Sınıfı */
+.gallery-images img.zoomed {
+    transform: scale(2);
+    transition: transform 0.3s ease;
+    z-index: 1000;
+}
